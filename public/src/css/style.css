@@ -1,0 +1,201 @@
+@media screen and (max-width: 767px) {
+  /* line 2, ../sass/_offcanvas.scss */
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+  }
+
+  /* line 9, ../sass/_offcanvas.scss */
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  /* line 13, ../sass/_offcanvas.scss */
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  /* line 17, ../sass/_offcanvas.scss */
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -75%;
+  }
+
+  /* line 21, ../sass/_offcanvas.scss */
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -75%;
+  }
+
+  /* line 25, ../sass/_offcanvas.scss */
+  .row-offcanvas-right.active {
+    right: 75%;
+  }
+
+  /* line 29, ../sass/_offcanvas.scss */
+  .row-offcanvas-left.active {
+    left: 75%;
+  }
+
+  /* line 33, ../sass/_offcanvas.scss */
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 75%;
+  }
+}
+/* line 1, ../sass/_paintings.scss */
+#painting-list {
+  min-height: 67px;
+}
+
+/* line 5, ../sass/_paintings.scss */
+.painting {
+  height: 275px;
+}
+/* line 8, ../sass/_paintings.scss */
+.painting p {
+  text-align: center;
+}
+/* line 12, ../sass/_paintings.scss */
+.painting .painting-image {
+  margin: 0 auto;
+  display: table;
+  height: 195px;
+}
+/* line 17, ../sass/_paintings.scss */
+.painting .painting-image div {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 21, ../sass/_paintings.scss */
+.painting .painting-image div img {
+  max-width: 130px;
+  max-height: 173px;
+  box-shadow: 3px 3px 15px rgba(10, 10, 10, 0.6);
+}
+/* line 29, ../sass/_paintings.scss */
+.painting .painting-title {
+  height: 35px;
+  font-style: italic;
+}
+
+/* line 1, ../sass/_icons.scss */
+.icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-size: 160px 32px;
+  background-repeat: no-repeat;
+  background-image: url("../../dist/images/icons@2x.png");
+}
+
+/* line 10, ../sass/_icons.scss */
+.icon-email {
+  background-position: 0px 0px;
+}
+
+/* line 14, ../sass/_icons.scss */
+.icon-facebook {
+  background-position: -32px 0px;
+}
+
+/* line 18, ../sass/_icons.scss */
+.icon-instagram {
+  background-position: -64px 0px;
+}
+
+/* line 22, ../sass/_icons.scss */
+.icon-pinterest {
+  background-position: -96px 0px;
+}
+
+/* line 26, ../sass/_icons.scss */
+.icon-linkedin {
+  background-position: -128px 0px;
+}
+
+/* line 8, ../sass/style.scss */
+body {
+  color: #333;
+}
+
+/* line 12, ../sass/style.scss */
+#wrapper {
+  overflow: hidden;
+}
+
+/* line 16, ../sass/style.scss */
+.loader {
+  background-image: url("../../dist/images/loader.gif");
+  background-size: 67px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* line 23, ../sass/style.scss */
+a {
+  color: #9e2e89;
+}
+
+/* line 27, ../sass/style.scss */
+h1, h3, h4 {
+  color: #9e2e89;
+}
+
+/* line 31, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+}
+
+/* line 35, ../sass/style.scss */
+.navbar-brand {
+  display: block;
+  float: left;
+  width: 140px;
+  height: 66px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px !important;
+  padding: 0 15px 0 0;
+}
+/* line 45, ../sass/style.scss */
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 52, ../sass/style.scss */
+.navbar-default .navbar-toggle {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  border-color: #ffffff;
+  background-color: #9e2e89;
+}
+/* line 58, ../sass/style.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+/* line 63, ../sass/style.scss */
+.navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:visited, .navbar-default .navbar-toggle:focus {
+  background-color: #9e2e89;
+}
+/* line 67, ../sass/style.scss */
+.navbar-default .navbar-toggle:hover {
+  background-color: #9e2e89;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 73, ../sass/style.scss */
+  .navbar-nav > li > a {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 80, ../sass/style.scss */
+  .navbar-brand {
+    padding: 0 15px 0 15px;
+    width: 155px;
+  }
+}

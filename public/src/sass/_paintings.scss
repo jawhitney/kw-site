@@ -1,0 +1,33 @@
+#painting-list {
+	min-height: 67px;
+}
+
+.painting {
+	height: 275px;
+
+	p {
+ 		text-align: center;
+ 	}
+
+	.painting-image {
+		margin: 0 auto;
+		display: table;
+		height: 195px;
+
+		div {
+			display: table-cell;
+			vertical-align: middle;
+
+			img {
+				max-width: 130px;
+				max-height: 173px;
+				box-shadow: 3px 3px 15px rgba(10, 10, 10, .6);
+			}
+		}
+	}
+
+	.painting-title {
+		height: 35px;
+		font-style: italic;
+	}
+}

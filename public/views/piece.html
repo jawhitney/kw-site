@@ -1,0 +1,10 @@
+<div class="" ng-repeat="p in piece" style="display:table; margin: 0 auto;">
+	<div ng-if="isRetina">
+        <img ng-src="{{ p.images.fullRetina }}" style="max-height:600px;" />
+    </div>
+    <div ng-if="!isRetina">
+        <img ng-src="{{ p.images.full }}" style="max-height:600px;" />
+    </div>
+	<h3>{{ p.title }}</h3>
+	<p>{{ p.description }}</p>
+</div>

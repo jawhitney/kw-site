@@ -1,0 +1,385 @@
+[
+   {
+        "id": 0,
+        "title": "Purple Haze",
+        "medium": "Oil on gallery wrapped canvas",
+        "width": 30,
+        "height": 40,
+        "description": "First painting in the \"Chromatic Canyon\" series. Each painting in this series is based upon an original photo of the Grand Canyon. For each photo, I created a paper and oil pastel collage and then crafted a painting based upon that collage.",
+        "type": [ "Abstract", "Landscape" ],
+        "series": [ "Chromatic Canyon" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/purple-haze-thumbnail.jpg",
+            "full": "dist/images/paintings/purple-haze-full.jpg"
+        }
+    },
+    {
+        "id": 1,
+        "title": "Canyon at Sunset",
+        "medium": "Oil on gallery wrapped canvas",
+        "width": 30,
+        "height": 40,
+        "description": "",
+        "type": [ "Abstract", "Landscape" ],
+        "series": [ "Chromatic Canyon" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/canyon-at-sunset-thumbnail.jpg",
+            "full": "dist/images/paintings/canyon-at-sunset-full.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Afternoon Distance",
+        "medium": "Oil on canvas, two canvases",
+        "width": 30,
+        "height": 40,
+        "description": "",
+        "type": [ "Abstract", "Landscape" ],
+        "series": [ "Chromatic Canyon" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/afternoon-distance-thumbnail.jpg",
+            "full": "dist/images/paintings/afternoon-distance-full.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Peaceful Morning",
+        "medium": "Oil on gallery wrapped canvas",
+        "width": 18,
+        "height": 24,
+        "description": "",
+        "type": [ "Abstract", "Landscape" ],
+        "series": [ "Chromatic Canyon" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/peaceful-morning-thumbnail.jpg",
+            "full": "dist/images/paintings/peaceful-morning-full.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Bright Rock Wall",
+        "medium": "Oil on gallery wrapped canvas",
+        "width": 18,
+        "height": 24,
+        "description": "",
+        "type": [ "Abstract", "Landscape" ],
+        "series": [ "Chromatic Canyon" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/bright-rock-wall-thumbnail.jpg",
+            "full": "dist/images/paintings/bright-rock-wall-full.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Spring Emerges",
+        "medium": "Oil on canvas",
+        "width": 30,
+        "height": 40,
+        "description": "",
+        "type": [ "Abstract" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/spring-emerges-thumbnail.jpg",
+            "full": "dist/images/paintings/spring-emerges-full.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Smudged Orchid",
+        "medium": "Acrylic on canvas",
+        "width": 16,
+        "height": 20,
+        "description": "",
+        "type": [ "Abstract" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/smudged-orchid-thumbnail.jpg",
+            "full": "dist/images/paintings/smudged-orchid-full.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Smudged Sunset",
+        "medium": "Acrylic on canvas",
+        "width": 16,
+        "height": 20,
+        "description": "",
+        "type": [ "Abstract" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/smudged-sunset-thumbnail.jpg",
+            "full": "dist/images/paintings/smudged-sunset-full.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Summer Breeze",
+        "medium": "Oil on canvas",
+        "width": 5,
+        "height": 7,
+        "description": "",
+        "type": [ "Abstract" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/summer-breeze-thumbnail.jpg",
+            "full": "dist/images/paintings/summer-breeze-full.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Loss Rebuilding",
+        "medium": "Oil on panel",
+        "width": 7,
+        "height": 11,
+        "description": "",
+        "type": [ "Abstract" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/loss-rebuilding-thumbnail.jpg",
+            "full": "dist/images/paintings/loss-rebuilding-full.jpg"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Peacock",
+        "medium": "Acrylic on wood panel",
+        "width": 11,
+        "height": 14,
+        "description": "",
+        "type": [ "Abstract" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/peacock-thumbnail.jpg",
+            "full": "dist/images/paintings/peacock-full.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Margaret Island Close-Up",
+        "medium": "Acrylic",
+        "width": 16,
+        "height": 20,
+        "description": "This painting is based upon photos of a combination of a variety of flowers that can be found on Margaret Island in Hungary. Photos were taken while I was there in late Summer of 2010.",
+        "type": [ "Realistic" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/margaret-island-close-up-thumbnail.jpg",
+            "full": "dist/images/paintings/margaret-island-close-up-full.jpg"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Bowl of Pears",
+        "medium": "Oil on canvas",
+        "width": 8,
+        "height": 10,
+        "description": "",
+        "type": [ "Realistic" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/bowl-of-pears-thumbnail.jpg",
+            "full": "dist/images/paintings/bowl-of-pears-full.jpg"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Corvair",
+        "medium": "Acrylic on canvas",
+        "width": 11,
+        "height": 14,
+        "description": "",
+        "type": [ "Realistic" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/corvair-thumbnail.jpg",
+            "full": "dist/images/paintings/corvair-full.jpg"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Hershey Gardens",
+        "medium": "Oil on canvas",
+        "width": 16,
+        "height": 20,
+        "description": "",
+        "type": [ "Realistic" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/hershey-gardens-thumbnail.jpg",
+            "full": "dist/images/paintings/hershey-gardens-full.jpg"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Arty",
+        "medium": "Oil on canvas",
+        "width": 16,
+        "height": 20,
+        "description": "",
+        "type": [ "Realistic" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/arty-thumbnail.jpg",
+            "full": "dist/images/paintings/arty-full.jpg"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Springtime at the IMA",
+        "medium": "Oil on canvas",
+        "width": 11,
+        "height": 14,
+        "description": "Painted from an original photo taken on the grounds of the Indianapolis Museum of Art.",
+        "type": [ "Realistic" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/springtime-at-the-ima-thumbnail.jpg",
+            "full": "dist/images/paintings/springtime-at-the-ima-full.jpg"
+        }
+    },
+    {
+        "id": 16,
+        "title": "Self Portrait",
+        "medium": "Acrylic on canvas",
+        "width": 24,
+        "height": 48,
+        "description": "",
+        "type": [ "Pop Art" ],
+        "series": [ "Pop Art Portrait" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/self-portrait-thumbnail.jpg",
+            "full": "dist/images/paintings/self-portrait-full.jpg"
+        }
+    },
+    {
+        "id": 17,
+        "title": "Jonathan",
+        "medium": "Acrylic on canvas",
+        "width": 24,
+        "height": 48,
+        "description": "",
+        "type": [ "Pop Art" ],
+        "series": [ "Pop Art Portrait" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/jonathan-thumbnail.jpg",
+            "full": "dist/images/paintings/jonathan-full.jpg"
+        }
+    },
+    {
+        "id": 18,
+        "title": "Growing Family",
+        "medium": "Acrylic on canvas",
+        "width": 20,
+        "height": 20,
+        "description": "",
+        "type": [ "Pop Art" ],
+        "series": [ "Pop Art Portrait" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/growing-family-thumbnail.jpg",
+            "full": "dist/images/paintings/growing-family-full.jpg"
+        }
+    },
+    {
+        "id": 19,
+        "title": "Gracie Pop",
+        "medium": "Watercolor on paper",
+        "width": 18,
+        "height": 24,
+        "description": "Painted from an original photo of a client's pet cat.",
+        "type": [ "Pop Art" ],
+        "series": [ "Pop Art Portrait" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/gracie-pop-thumbnail.jpg",
+            "full": "dist/images/paintings/gracie-pop-full.jpg"
+        }
+    },
+    {
+        "id": 20,
+        "title": "Impact Conference Flyer",
+        "medium": "Digital",
+        "description": "Established the branding for Impact's annual event held in both Chicago and Atlanta. This piece is part of the flyer college students received inviting them to the conference.",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/impact-conference-flyer-thumbnail.jpg",
+            "full": "dist/images/paintings/impact-conference-flyer-full.jpg"
+        }
+    },
+    {
+        "id": 21,
+        "title": "Keynote Business Card",
+        "medium": "Digital",
+        "description": "Established a new, temporary branding for Keynote during a time of transition. This piece is the front side of their business card.",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/keynote-business-card-thumbnail.jpg",
+            "full": "dist/images/paintings/keynote-business-card-full.jpg"
+        }
+    },
+    {
+        "id": 22,
+        "title": "Chevronbone Coastet Set",
+        "medium": "Coasters",
+        "description": "",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/chevronbone-coastet-set-thumbnail.jpg",
+            "full": "dist/images/paintings/chevronbone-coastet-set-full.jpg"
+        }
+    },
+    {
+        "id": 23,
+        "title": "Chevronbone Pattern",
+        "medium": "Pastel on cardboard",
+        "description": "",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/chevronbone-pattern-thumbnail.jpg",
+            "full": "dist/images/paintings/chevronbone-pattern-full.jpg"
+        }
+    },
+    {
+        "id": 24,
+        "title": "St. Basil’s Cathedral",
+        "medium": "Watercolor and Ink on paper",
+        "width": 5,
+        "height": 6,
+        "description": "One of more than 50 hand drawn, hand painted items created with another artist at Keynote for a stop-motion promotional video.",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/st-basils-cathedral-thumbnail.jpg",
+            "full": "dist/images/paintings/st-basils-cathedral-full.jpg"
+        }
+    },
+    {
+        "id": 25,
+        "title": "Transworld Squirrel Logo",
+        "medium": "Digital",
+        "description": "Logo created for <a href=\"http://vimeo.com/transworldsquirrel\" target=\"_blank\">Transworld Squirrel</a> video company creating short films.",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/transworld-squirrel-logo-thumbnail.jpg",
+            "full": "dist/images/paintings/transworld-squirrel-logo-full.jpg"
+        }
+    },
+    {
+        "id": 26,
+        "title": "Lindsay Smith Life Coaching",
+        "medium": "Digital",
+        "description": "Emerging Life Coach, <a href=\"http://lindsaysmithcoaching.com/\" target=\"_blank\">Lindsay Smith</a> commissioned me to help her create her logo and beginning elements of her branding as well as her business card",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/lindsay-smith-life-coaching-thumbnail.jpg",
+            "full": "dist/images/paintings/lindsay-smith-life-coaching-full.jpg"
+        }
+    },
+    {
+        "id": 27,
+        "title": "University of Washington Cru Logo",
+        "medium": "Digital",
+        "description": "",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/university-of-washington-cru-logo-thumbnail.jpg",
+            "full": "dist/images/paintings/university-of-washington-cru-logo-full.jpg"
+        }
+    },
+    {
+        "id": 28,
+        "title": "Foulds Photography",
+        "medium": "Digital",
+        "description": "Commissioned logo for <a href=\"https://www.facebook.com/pages/Foulds-Photography/166812621292?fref=photo\" target=\"_blank\">Foulds Photography</a> looking to update their brand.",
+        "type": [ "Design" ],
+        "images": {
+            "thumbnail": "dist/images/paintings/foulds-photography-thumbnail.jpg",
+            "full": "dist/images/paintings/foulds-photography-full.jpg"
+        }
+    }
+]

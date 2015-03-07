@@ -1,0 +1,84 @@
+@import 'offcanvas';
+@import 'paintings';
+@import 'icons';
+
+$color-white: #ffffff;
+$color-purple: #9e2e89;
+
+body {
+	color: #333;
+}
+
+#wrapper {
+	overflow: hidden;
+}
+
+.loader {
+	background-image: url('../../dist/images/loader.gif');
+	background-size: 67px;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+a {
+	color: $color-purple;
+}
+
+h1, h3, h4 {
+	color: $color-purple;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+}
+
+.navbar-brand {
+	display: block;
+	float: left;
+	width: 140px;
+	height: 66px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px !important;
+	padding: 0 15px 0 0;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.navbar-default {
+	.navbar-toggle {
+		margin-top: 26px;
+		margin-bottom: 26px;
+		border-color: $color-white;
+		background-color: $color-purple;
+
+		.icon-bar {
+			background-color: $color-white;
+		}
+	}
+
+	.navbar-toggle:active, .navbar-toggle:visited, .navbar-toggle:focus {
+		background-color: $color-purple;
+	}
+
+	.navbar-toggle:hover {
+		background-color: $color-purple;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-nav>li>a {
+		padding-top: 33px;
+		padding-bottom: 33px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-brand {
+		padding: 0 15px 0 15px;
+		width: 155px;
+	}
+}
