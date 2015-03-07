@@ -2,6 +2,7 @@
 .sass-cache
 design/
 node_modules/
+public/dist/images/paintings/
 
 # OS generated files #
 ######################
