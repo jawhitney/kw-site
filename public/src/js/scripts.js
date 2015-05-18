@@ -7,13 +7,13 @@
 		});
 
 		$('.navbar a').on('click', function(e) {
-			if ($('.navbar-toggle').is(":visible")) { 
-				$('.navbar-collapse').collapse('toggle');
-			}
-
 			$('.navbar-nav li').removeClass('active');
 
 			if (!$(this).hasClass('navbar-brand')) {
+				if ($('.navbar-toggle').is(":visible")) { 
+					$('.navbar-collapse').collapse('toggle');
+				}
+				
 				$(this).parent().addClass('active');
 			}
 		});

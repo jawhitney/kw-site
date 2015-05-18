@@ -1,57 +1,60 @@
-<div ng-class="rowOffCanvasClass">
-    <div class="col-sm-8">
-        <div class="row">
-            <div class="col-xs-10">
-                <h1>PORTFOLIO</h1>
-            </div>
-            <div class="col-xs-2">
-                <p class="visible-xs pull-right" ng-show="hasPieces">
-                    <button type="button" class="btn btn-primary btn-xs" ng-click="toggleFilter()">Filter</button>
-                </p>
-            </div>
-        </div>
-        <div id="painting-list" ng-class="hasPieces ? 'row' : 'row loader'">
-            <div class="col-xs-6 col-sm-4 col-md-3" ng-repeat="p in filtered = (pieces | filter:search | filter:filterByProperties | orderBy:predicate:reverse)">
-                <a ng-href="/piece/{{ p.id }}">
-                    <div class="painting">
-                        <div class="painting-image">
-                            <div ng-if="isRetina">
-                                <img ng-src="{{ p.images.thumbnailRetina }}" />
-                            </div>
-                            <div ng-if="!isRetina">
-                                <img ng-src="{{ p.images.thumbnail }}" />
-                            </div>
-                        </div>
-                        <div class="painting-title">
-                            <p>{{ p.title }}</p>
-                        </div>
+<div class="container">
+    <div id="about" class="row">
+        <div ng-class="rowOffCanvasClass">
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-xs-9">
+                        <h1>PORTFOLIO</h1>
                     </div>
-                </a>
+                    <div class="col-xs-3">
+                        <p class="visible-xs pull-right" ng-show="hasPieces">
+                            <button type="button" class="btn btn-s btn-filter" ng-click="toggleFilter()">Filter</button>
+                        </p>
+                    </div>
+                </div>
+                <div id="painting-list" ng-class="hasPieces ? 'row' : 'row loader'">
+                    <div class="col-xs-6 col-sm-4 col-md-3" ng-repeat="p in filtered = (pieces | filter:search | filter:filterByProperties | orderBy:predicate:reverse)">
+                        <a ng-href="/piece/{{ p.id }}">
+                            <div class="painting">
+                                <div class="painting-image">
+                                    <div ng-if="isRetina">
+                                        <img ng-src="{{ p.images.thumbnailRetina }}" />
+                                    </div>
+                                    <div ng-if="!isRetina">
+                                        <img ng-src="{{ p.images.thumbnail }}" />
+                                    </div>
+                                </div>
+                                <div class="painting-title">
+                                    <p>{{ p.title }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="col-sm-4 sidebar-offcanvas" role="navigation" ng-show="hasPieces">
-        <!-- TODO: Make filter into directice -->
-        <!-- Type Filter -->
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>TYPES</h3>
-                <ul class="list-group">
-                    <li class="list-group-item" ng-repeat="t in type" ng-init="filter['type']={}">
-                        <input type="checkbox" ng-model="filter['type'][t]" />&nbsp;{{ t }}
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- Series Filter -->
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>SERIES</h3>
-                <ul class="list-group">
-                    <li class="list-group-item" ng-repeat="s in series" ng-init="filter['series']={}">
-                        <input type="checkbox" ng-model="filter['series'][s]" />&nbsp;{{ s }}
-                    </li>
-                </ul>
+            <div class="col-sm-4 sidebar-offcanvas" role="navigation" ng-show="hasPieces">
+                <!-- Type Filter -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3>TYPES</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item" ng-repeat="t in type" ng-init="filter['type']={}">
+                                <input type="checkbox" ng-model="filter['type'][t]" />&nbsp;{{ t }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Series Filter -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3>SERIES</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item" ng-repeat="s in series" ng-init="filter['series']={}">
+                                <input type="checkbox" ng-model="filter['series'][s]" />&nbsp;{{ s }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

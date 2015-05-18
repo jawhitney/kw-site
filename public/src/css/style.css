@@ -1,3 +1,59 @@
+/* line 1, ../sass/_navigation.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 5, ../sass/_navigation.scss */
+.navbar-brand {
+  display: block;
+  float: left;
+  width: 140px;
+  height: 66px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px !important;
+  padding: 0 15px 0 0;
+}
+/* line 15, ../sass/_navigation.scss */
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 22, ../sass/_navigation.scss */
+.navbar-default .navbar-toggle {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  border-color: #ffffff;
+  background-color: #9e2e89;
+}
+/* line 28, ../sass/_navigation.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+/* line 33, ../sass/_navigation.scss */
+.navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:visited, .navbar-default .navbar-toggle:focus {
+  background-color: #9e2e89;
+}
+/* line 37, ../sass/_navigation.scss */
+.navbar-default .navbar-toggle:hover {
+  background-color: #9e2e89;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 43, ../sass/_navigation.scss */
+  .navbar-nav > li > a {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 50, ../sass/_navigation.scss */
+  .navbar-brand {
+    padding: 0 15px 0 15px;
+    width: 155px;
+  }
+}
 @media screen and (max-width: 767px) {
   /* line 2, ../sass/_offcanvas.scss */
   .row-offcanvas {
@@ -80,6 +136,13 @@
   font-style: italic;
 }
 
+/* line 35, ../sass/_paintings.scss */
+.btn-filter {
+  margin-top: 20px;
+  background-color: #9e2e89;
+  color: #ffffff;
+}
+
 /* line 1, ../sass/_icons.scss */
 .icon {
   display: inline-block;
@@ -115,87 +178,46 @@
   background-position: -128px 0px;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 body {
   color: #333;
 }
 
-/* line 12, ../sass/style.scss */
-#wrapper {
+/* line 11, ../sass/style.scss */
+.container {
   overflow: hidden;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .loader {
   background-image: url("../../dist/images/loader.gif");
-  background-size: 67px;
+  background-size: 50px;
   background-repeat: no-repeat;
   background-position: top center;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 a {
   color: #9e2e89;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 h1, h3, h4 {
   color: #9e2e89;
 }
 
-/* line 31, ../sass/style.scss */
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0px;
-}
-
-/* line 35, ../sass/style.scss */
-.navbar-brand {
-  display: block;
-  float: left;
-  width: 140px;
-  height: 66px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px !important;
-  padding: 0 15px 0 0;
-}
-/* line 45, ../sass/style.scss */
-.navbar-brand img {
-  width: 100%;
+/* line 34, ../sass/style.scss */
+.container-parallax {
+  background-position: 50% 50%;
+  background-attachment: fixed;
   height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 200px 0;
 }
 
-/* line 52, ../sass/style.scss */
-.navbar-default .navbar-toggle {
-  margin-top: 26px;
-  margin-bottom: 26px;
-  border-color: #ffffff;
-  background-color: #9e2e89;
-}
-/* line 58, ../sass/style.scss */
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-/* line 63, ../sass/style.scss */
-.navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:visited, .navbar-default .navbar-toggle:focus {
-  background-color: #9e2e89;
-}
-/* line 67, ../sass/style.scss */
-.navbar-default .navbar-toggle:hover {
-  background-color: #9e2e89;
-}
-
-@media screen and (min-width: 768px) {
-  /* line 73, ../sass/style.scss */
-  .navbar-nav > li > a {
-    padding-top: 33px;
-    padding-bottom: 33px;
-  }
-}
-@media screen and (max-width: 767px) {
-  /* line 80, ../sass/style.scss */
-  .navbar-brand {
-    padding: 0 15px 0 15px;
-    width: 155px;
-  }
+/* line 45, ../sass/style.scss */
+#parallax1, #parallax2 {
+  background-image: url("../../dist/images/paintings/canyon-at-sunset-full@2x.jpg");
 }

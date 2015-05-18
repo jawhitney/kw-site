@@ -16,6 +16,8 @@ angular.module('portfolioService', [])
 					url += 'get_posts';
 				}
 
+				url = 'dist/json/kw-data.json';
+
 				// url += '&callback=JSON_CALLBACK';
 
 				// JSON from CMS

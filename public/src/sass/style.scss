@@ -1,21 +1,20 @@
+@import 'variables';
+@import 'navigation';
 @import 'offcanvas';
 @import 'paintings';
 @import 'icons';
 
-$color-white: #ffffff;
-$color-purple: #9e2e89;
-
 body {
-	color: #333;
+	color: $color-grey;
 }
 
-#wrapper {
+.container {
 	overflow: hidden;
 }
 
 .loader {
 	background-image: url('../../dist/images/loader.gif');
-	background-size: 67px;
+	background-size: 50px;
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -29,56 +28,21 @@ h1, h3, h4 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin-top: 0px;
+	// margin-top: 0px;
 }
 
-.navbar-brand {
-	display: block;
-	float: left;
-	width: 140px;
-	height: 66px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 0px !important;
-	padding: 0 15px 0 0;
-
-	img {
-		width: 100%;
-		height: auto;
-	}
+.container-parallax { 
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
 }
 
-.navbar-default {
-	.navbar-toggle {
-		margin-top: 26px;
-		margin-bottom: 26px;
-		border-color: $color-white;
-		background-color: $color-purple;
-
-		.icon-bar {
-			background-color: $color-white;
-		}
-	}
-
-	.navbar-toggle:active, .navbar-toggle:visited, .navbar-toggle:focus {
-		background-color: $color-purple;
-	}
-
-	.navbar-toggle:hover {
-		background-color: $color-purple;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.navbar-nav>li>a {
-		padding-top: 33px;
-		padding-bottom: 33px;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.navbar-brand {
-		padding: 0 15px 0 15px;
-		width: 155px;
-	}
-}
+#parallax1, #parallax2 {
+	// background-image: url('http://placehold.it/2000x300');
+    background-image: url('../../dist/images/paintings/canyon-at-sunset-full@2x.jpg');
+} 
